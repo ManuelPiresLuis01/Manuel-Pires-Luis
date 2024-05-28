@@ -446,7 +446,6 @@ footer{
     text-align: center;
     color: white;
     align-items: center;
-    border-top: 3px solid white;
 }
 
 
@@ -508,7 +507,7 @@ footer{
     }
 
     .mobile.abrir{
-        width: 50%;
+        width: 60%;
     }
 
     .mobile nav ul li{

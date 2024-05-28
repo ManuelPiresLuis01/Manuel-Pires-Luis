@@ -11,20 +11,28 @@
     <link rel="stylesheet" href="./Assets/style/mainStyle.css">
     <link rel="shortcut icon" href="./Assets/img/foto portfolio.png" type="image/png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./Assets/style/loadingAndScroll.css">
     <!--Fim do estilo e icons da pagina-->
 
 </head>
 
 <body>
+
+<div class="aparecer"></div>
+    <!--Loading antes de abrir a pagina-->
+    <div class="loading">
+        <span class="giro">
+            <span style="display: flex;"><span class="contador">100</span>%</span>
+        </span>
+    </div>
+    <!------------------------------->
+
     <header>
         <div class="overflow"></div>
         <div class="icon-menu">
             <i id="btn-menu" class='bx bx-menu'></i>
         </div>
         <div id="menu" class="mobile">
-          <div class="icon-fechar">
-            <i class='bx bx-x-circle'></i>
-          </div>
             <nav>
                 <ul>
                     <li><a href="#principio">Principio</a></li>
@@ -32,7 +40,7 @@
                     <li><a href="#oqueFaco">Oque Faço</a></li>
                     <li><a href="#projectos">Projectos</a></li>
                     <li><a href="#premios">Premios</a></li>
-                    <li><a href="#">Ligar Agora</a></li>
+                    <li><a href="https://wa.me/message/SNIM7FYHGCJHA1">Ligar Agora</a></li>
                 </ul>
             </nav>
         </div>
@@ -44,7 +52,7 @@
                     <li><a href="#oqueFaco">Oque Faço</a></li>
                     <li><a href="#projectos">Projectos</a></li>
                     <li><a href="#premios">Premios</a></li>
-                    <li><a href="#"><i style="font-size: 35px;" class='bx bxs-phone-call bx-tada'></i></a></li>
+                    <li><a href="https://wa.me/message/SNIM7FYHGCJHA1"><i style="font-size: 35px;" class='bx bxs-phone-call bx-tada'></i></a></li>
                 </ul>
             </nav>
         </div>
@@ -64,11 +72,14 @@
                 <h2>Professor e Freelancer!</h2>
                 <div class="redes-sociais">
                     <ul>
-                        <li><a href="#" target="_blank"><i class='bx bxl-instagram-alt'></i></a></li>
+                        <li><a href="" target="_blank"><i class='bx bxl-instagram-alt'></i></a></li>
                         <li><a href="" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
-                        <li><a href="http://" target="_blank"><i class='bx bxl-facebook-circle'></i></a></i></li>
-                        <li><a href="" target="_blank"><i class='bx bxl-github'></i></a></li>
-                        <li><a href="http://" target="_blank"><i class='bx bxl-whatsapp'></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100009082950394" target="_blank"><i
+                                    class='bx bxl-facebook-circle'></i></a></i></li>
+                        <li><a href="https://github.com/ManuelPiresLuis01" target="_blank"><i
+                                    class='bx bxl-github'></i></a></li>
+                        <li><a href="https://wa.me/message/SNIM7FYHGCJHA1" target="_blank"><i
+                                    class='bx bxl-whatsapp'></i></a></li>
                     </ul>
                 </div>
                 <div class="btn">
@@ -116,7 +127,7 @@
                 <div class="descricacao">
                     <p>Construção de Websites responsivos</p>
                 </div>
-                <button class="btn-contactar"><a href="#">Contactar</a></button>
+                <button class="btn-contactar"><a href="https://wa.me/message/SNIM7FYHGCJHA1">Contactar</a></button>
 
             </div>
 
@@ -128,7 +139,7 @@
                     <p>Aulas de Inglês online e ao domicilio</p>
                 </div>
                 <button class="btn-contactar">
-                    <a href="#">Contactar</a>
+                    <a href="https://wa.me/message/SNIM7FYHGCJHA1">Contactar</a>
                 </button>
             </div>
 
@@ -140,7 +151,7 @@
                     <p>Aulas de Matemática ao domicilio</p>
                 </div>
                 <button class="btn-contactar">
-                    <a href="#">Contactar</a>
+                    <a href="https://wa.me/message/SNIM7FYHGCJHA1">Contactar</a>
                 </button>
             </div>
 
@@ -293,13 +304,14 @@
 
     <!--rodape-->
     <footer>
-       <hr style="color: white;">
-       <p style="text-align: center;">Copright - 2024 <b>Manuel Pires Luís</b></p> 
+        <hr style="color: white;">
+        <p style="text-align: center;">Copright - 2024 <b>Manuel Pires Luís</b></p>
     </footer>
     <!--fim do rodape-->
 
 
     <script src="./Assets/script/mainScript.js"></script>
+    <script src="./Assets/script/loadingAndScroll.js"></script>
 </body>
 
 </html>
