@@ -69,8 +69,8 @@ section.first {
     align-items: center;
 }
 
-
 .redes-sociais ul{
+    margin-left: -30px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -104,7 +104,6 @@ section.first {
     transition: 1s;
 }
 
-
 .text h1,
 .text h2 {
     font-size: 25px;
@@ -112,10 +111,8 @@ section.first {
 }
 
 .btn {
-    margin-top: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .btn i {
@@ -479,6 +476,7 @@ footer{
         color: white;
         font-size: 30px;
     }
+
     .mobile{
         width: 0;
         overflow: hidden;
@@ -524,6 +522,7 @@ footer{
 
     .icon-menu {
         display: block;
+        position: fixed;
     }
 
     .icon-menu i {
@@ -568,9 +567,3 @@ footer{
 
 
 }
-
-/*
-i{
-border: 1px solid white; 
-padding: 5px;   
-}*/
