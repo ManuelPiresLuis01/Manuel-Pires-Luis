@@ -1,54 +1,5 @@
 /**resetar*/
 window.revelar = ScrollReveal({ reset: true })
-
-
-
-/* efeito do carregamento da pagina */
-let cont = 0
-parar = setInterval(function () {
-    cont++
-    document.querySelector(".contador").innerHTML = cont
-    if (cont == 100) {
-        clearInterval(parar)
-        document.querySelector(".loading").classList.add("fechar")
-        document.querySelector(".aparecer").classList.add("fechar")
-        var apresentacao = `Ola, eu sou o Manuel Pires Luís`
-        var apresentacao1 = `Desenvolvedor Front-End,`
-        var apresentacao2 = `Professor e Freelancer!`
-        var i = 0
-        document.getElementById("presentation").innerHTML = ""
-        document.getElementById("presentation1").innerHTML = ""
-        document.getElementById("presentation2").innerHTML = ""
-
-        parar1 = setInterval(function () {
-            document.getElementById("presentation").innerHTML += apresentacao.charAt(i)
-            i++
-            if (i == apresentacao.length) {
-                clearInterval(parar1)
-                i = 0
-                parar1 = setInterval(function () {
-                    document.getElementById("presentation1").innerHTML += apresentacao1.charAt(i)
-                    i++
-                    if (i == apresentacao1.length) {
-                        clearInterval(parar1)
-                        i = 0
-                        parar1 = setInterval(function () {
-                            document.getElementById("presentation2").innerHTML += apresentacao2.charAt(i)
-                            i++
-                            if (i == apresentacao2.length) {
-                                clearInterval(parar1)
-                            }
-                        }, 50)
-                    }
-                }, 50)
-            }
-        }, 50)
-    }
-}, 50)
-
-/*fim do efeito do carregamento da pagina */
-
-
 /*efeito scroll reveal do topo*/
 
 revelar.reveal('.img', {
@@ -78,39 +29,39 @@ revelar.reveal('#presentation2', {
 revelar.reveal('.r1', {
     duration: 200,
     distance: '90px',
-    delay: 2000,
+    delay: 500,
     origin: 'right'
 })
 
 revelar.reveal('.r2', {
     duration: 200,
     distance: '90px',
-    delay: 2100,
+    delay: 600,
     origin: 'right'
 })
 revelar.reveal('.r3', {
     duration: 200,
     distance: '90px',
-    delay: 2200,
+    delay: 700,
     origin: 'right'
 })
 revelar.reveal('.r4', {
     duration: 200,
     distance: '90px',
-    delay: 2300,
+    delay: 800,
     origin: 'right'
 })
 revelar.reveal('.r5', {
     duration: 200,
     distance: '90px',
-    delay: 2400,
+    delay: 900,
     origin: 'right'
 })
 
 revelar.reveal('.btn', {
     duration: 200,
     distance: '90px',
-    delay: 2500
+    delay:1000
 })
 
 
