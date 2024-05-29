@@ -61,7 +61,7 @@ header {
 
 section.first {
     color: white;
-    margin: 100px 0;
+    margin: 50px 0;
     width: 100%;
     text-align: center;
     display: flex;
@@ -569,8 +569,8 @@ footer{
 
 }
 
-
+/*
 i{
 border: 1px solid white; 
 padding: 5px;   
-}
+}*/
