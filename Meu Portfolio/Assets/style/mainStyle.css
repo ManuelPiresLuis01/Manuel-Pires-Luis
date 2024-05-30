@@ -1,0 +1,585 @@
+/*estilo geral do site*/
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.mobile,
+.icon-menu {
+    display: none;
+}
+
+/*fim do estilo geral do site*/
+
+/*estilo do Menu desktop*/
+header {
+    display: flex;
+    justify-content: right;
+}
+
+.desktop {
+    margin: 30px 50px;
+    color: white;
+}
+
+.desktop a {
+    color: white;
+    transition: .5s;
+}
+
+.desktop a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.desktop nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+/*Fim do menu*/
+
+/*estilo da primeira secção*/
+
+section.first {
+    color: white;
+    margin: 50px 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociais ul{
+    margin-left: -30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.redes-sociais i{
+    font-size: 45px;
+    transition: 1s;
+}
+
+
+.redes-sociais i:hover{
+   transform: scale(1.1);
+}
+
+.main {
+    margin-top: 100px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.main img {
+    position: relative;
+    width: 400px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    animation: flutuar 1s ease-in-out infinite alternate-reverse;
+    transition: 1s;
+}
+
+.text h1,
+.text h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    display: flex;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.btn i {
+    cursor: pointer;
+    font-size: 50px;
+}
+
+
+
+/*fim estilo da primeira secção*/
+
+/*ESTILO DA Segunda seccao*/
+
+section.second {
+    margin-top: 250px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.about-me,
+.project {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px #ffffff54;
+    border-radius: 20px;
+    width: 500px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.skills div i {
+    font-size: 130px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.skills div i:hover {
+    transform: scale(1.1);
+}
+
+
+/*colorir os icones skills*/
+.bxl-html5 {
+    color: orange;
+}
+
+.bxl-css3 {
+    color: #4949fa;
+}
+
+.bxl-javascript {
+    color: yellow;
+}
+
+.bxl-java {
+    color: wheat;
+}
+
+.bxl-bootstrap {
+    color: yellow;
+}
+
+.bxl-react {
+    color: #4949fa;
+}
+
+.bxl-visual-studio {
+    color: #4949fa;
+}
+
+.bi-file-word{
+    color: #9191ec;
+}
+
+.bi-file-earmark-excel-fill{
+    color: green;
+}
+
+.bi-file-ppt-fill{
+    color: #bd5959;
+}
+
+/**********/
+
+/*fim ESTILO DA Segunda seccao*/
+.third {
+    margin-top: 250px;
+    text-align: center;
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    line-height: 80px;
+}
+
+.titulo::after {
+    content: '';
+    background-color: white;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.atividades {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px 20px;
+}
+
+.oque-faco {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+.icon-oque-faco i {
+    font-size: 50px;
+}
+
+.descricacao {
+    margin: 10px 20px;
+}
+
+.btn-contactar a {
+    color: white;
+}
+
+
+.btn-contactar {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px 10px;
+    transition: 1s;
+}
+
+
+.btn-contactar:hover {
+    padding: 5px 50px;
+}
+
+/*ESTILO DA terceira seccao*/
+
+/*estilo da quarta seccao*/
+.fourth {
+    margin-top: 250px;
+    text-align: center;
+    color: white;
+}
+
+.proj {
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.biblioteca {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 150px;
+    background: url(../img/biblioteca.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: #00000081;
+    transition: 1s;
+}
+
+.ecomerce {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 150px;
+    background: url(../img/ecomerce.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: #00000081;
+    transition: 1s;
+}
+
+.relogio {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 150px;
+    background: url(../img/relogio.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: #00000081;
+    transition: 1s;
+}
+
+
+.biblioteca:hover {
+    cursor: pointer;
+    background: url(../img/biblioteca.jpg);
+    background-size: cover;
+    background-color: #00000000;
+}
+
+
+.ecomerce:hover {
+    cursor: pointer;
+    background: url(../img/ecomerce.jpg);
+    background-size: cover;
+    background-color: #00000000;
+}
+
+
+
+.relogio:hover {
+    cursor: pointer;
+    background: url(../img/relogio.jpg);
+    background-size: cover;
+    background-color: #00000000;
+}
+
+
+.descricao {
+    padding: 3px;
+}
+
+
+/************************/
+
+/*estilo da quinta*/
+.fith {
+    margin-top: 250px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/********************/
+
+
+
+/**estilo da sexta seccao*/
+
+.six {
+    margin-top: 250px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+.cont {
+    width: 200px;
+    height: 200px;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cont span {
+    display: block;
+    font-size: 60px;
+}
+
+.cont p {
+    font-size: 15px;
+}
+
+/************/
+
+/*estilo setima seccao*/
+
+.seventh {
+    margin: 250px 0;
+    color: white;
+    text-align: center;
+}
+
+.testemunha {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 250px;
+
+}
+
+.testemunha i {
+    font-size: 30px;
+}
+
+.foto img {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/*******************/
+
+
+/*estilo do rodpe*/
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+
+
+
+/************************/
+
+/*animaçao da foto*/
+@keyframes flutuar {
+    0% {
+        top: -10px;
+    }
+
+    100% {
+        top: 5px;
+    }
+
+}
+
+/*fim da animaça~ da foto*/
+
+/*responsividade*/
+@media screen and (max-width:800px) {
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile i{
+        padding: 10px;
+        color: white;
+        font-size: 30px;
+    }
+
+    .mobile{
+        width: 0;
+        overflow: hidden;
+        height: 100vh;
+        display: block;
+        background-color: black;
+        position: fixed;
+        top:0;
+        right:0;
+        font-size: 20px;
+        z-index: 9999;
+        transition: 1s;
+    }
+
+    .overflow{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        z-index: 8888;
+        background-color: #00000093;
+        display: none;
+    }
+
+    .overflow.abrir{
+        display: block;
+    }
+
+    .mobile.abrir{
+        width: 60%;
+    }
+
+    .mobile nav ul li{
+        margin-left: -30px;
+        padding: 20px;
+        transition: .3s;
+    }
+
+
+    .mobile nav ul li:hover{
+        background-color: #a3a3a3;
+        
+    }
+
+    .icon-menu {
+        display: block;
+        position: fixed;
+    }
+
+    .icon-menu i {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 50px;
+        color: white;
+    }
+
+
+
+    .btn {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main img {
+        width: 300px;
+        margin-bottom: 50px;
+        border-radius: 50%;
+    }
+
+
+    section.second {
+        padding: 100px 50px;
+
+    }
+
+
+    .about-me {
+        width: auto;
+    }
+
+    .six {
+        flex-direction: column;
+    }
+
+
+}
