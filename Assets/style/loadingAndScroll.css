@@ -37,6 +37,12 @@
    visibility: hidden;
 }
 
+.bi-file-word,
+.bi-file-earmark-excel-fill,
+.bi-file-ppt-fill {
+  display: block;
+}
+
 
 
 

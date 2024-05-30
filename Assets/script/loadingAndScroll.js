@@ -11,13 +11,12 @@ parar = setInterval(function () {
         first()
     }
 
-}, 60)
+}, 40)
 /*****************/
 
 /**resetar*/
 window.revelar = ScrollReveal({ reset: true })
 /*efeito scroll reveal do topo*/
-
 function first() {
     revelar.reveal('.img', {
         duration: 500,
@@ -81,8 +80,6 @@ function first() {
         delay: 1000
     })
 }
-
-
 /**efeito scroll de reveal do sobre */
 
 revelar.reveal('.about-me', {
@@ -236,25 +233,7 @@ let premio = document.getElementById("premio")
 var ter = 0
 var pre = 0
 
-function contar(){
-    parar1 = setInterval(function () {
-        terminado.innerHTML = ter
-        ter++
-        if (ter == 4) {
-            clearInterval(parar1)
-        }
-    }, 50)
-}
 
-function contar1(){
-    parar2 = setInterval(function () {
-        premio.innerHTML = pre
-        pre++
-        if (ter == 4) {
-            clearInterval(parar2)
-        }
-    }, 100)
-}
 
 
 /***************/
