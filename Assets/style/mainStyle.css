@@ -200,6 +200,18 @@ section.second {
     color: #4949fa;
 }
 
+.bi-file-word{
+    color: #9191ec;
+}
+
+.bi-file-earmark-excel-fill{
+    color: green;
+}
+
+.bi-file-ppt-fill{
+    color: #bd5959;
+}
+
 /**********/
 
 /*fim ESTILO DA Segunda seccao*/
@@ -383,12 +395,13 @@ section.second {
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    font-weight: 500;
 }
 
 .cont {
     width: 200px;
     height: 200px;
-    border: 2px solid white;
+    border: 3px solid white;
     border-radius: 50%;
     display: flex;
     align-items: center;

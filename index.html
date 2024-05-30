@@ -12,20 +12,19 @@
     <link rel="shortcut icon" href="./Assets/img/foto portfolio.png" type="image/png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./Assets/style/loadingAndScroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!--Fim do estilo e icons da pagina-->
 
 </head>
 
 <body>
-
-    <div class="aparecer"></div>
     <!--Loading antes de abrir a pagina-->
-  
-    <!-------------  <div class="loading">
-        <span class="giro">
+    <div class="loading">
+        <span class="barra">
             <span style="display: flex;"><span class="contador">100</span>%</span>
         </span>
-    </div>------------------>
+    </div>
+    <!------------------------------->
 
     <header>
         <div class="overflow"></div>
@@ -77,10 +76,11 @@
                     <ul>
                         <li class="r1"><a href="https://www.instagram.com/manuelpiresluis?igsh=MWpsaW5kb2ltYmxneg=="
                                 target="_blank"><i class='bx bxl-instagram-alt'></i></a></li>
-                        <li class="r2"><a href="https://www.linkedin.com/in/manuel-pires-lu%C3%ADs-5275852aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        <li class="r2"><a
+                                href="https://www.linkedin.com/in/manuel-pires-lu%C3%ADs-5275852aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                                 target="_blank"><i class='bx bxl-linkedin'></i></a></li>
-                        <li class="r3"><a href="https://www.facebook.com/profile.php?id=100009082950394" target="_blank"><i
-                                    class='bx bxl-facebook-circle'></i></a></i></li>
+                        <li class="r3"><a href="https://www.facebook.com/profile.php?id=100009082950394"
+                                target="_blank"><i class='bx bxl-facebook-circle'></i></a></i></li>
                         <li class="r4"><a href="https://github.com/ManuelPiresLuis01" target="_blank"><i
                                     class='bx bxl-github'></i></a></li>
                         <li class="r5"><a href="https://wa.me/message/SNIM7FYHGCJHA1" target="_blank"><i
@@ -115,6 +115,15 @@
             <div><abbr title="bootstrap"><i class='bx bxl-bootstrap'></i></abbr></div>
             <div><abbr title="React"><i class='bx bxl-react'></i></abbr></div>
             <div><abbr title="VS code"><i class='bx bxl-visual-studio'></i></abbr></div>
+            
+            <div><abbr title="Word"><i class="bi bi-file-word"></i></abbr></div>
+            <div><abbr title="excel"><i class="bi bi-file-earmark-excel-fill"></i></abbr></div>
+            <div><abbr title="Power point"><i class="bi bi-file-ppt-fill"></i></abbr></div>
+
+          
+
+            
+            
         </div>
 
     </section>
@@ -230,13 +239,13 @@
 
     <!--sexta seccao-->
     <section class="six">
-        <div class="cont cont1">
+        <div onscroll="contar()" class="cont cont1">
             <div>
                 <span id="terminado">3</span>
                 <p>Projectos Terminados</p>
             </div>
         </div>
-        <div class="cont cont2">
+        <div onscroll="contar1()" class="cont cont2">
             <div>
                 <span id="premio">1</span>
                 <p>Projectos Premiados</p>
@@ -343,6 +352,7 @@
     <!------------>
     <script src="./Assets/script/mainScript.js"></script>
     <script src="./Assets/script/loadingAndScroll.js" defer></script>
+    <!--fim do java script-->
 </body>
 
 </html>
