@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* script do loading */
 let cont = document.querySelector(".contador")
 var contador = 0
@@ -315,7 +314,6 @@ var pre = 0
 
 /***************/
 
-=======
 /* script do loading */
 let cont = document.querySelector(".contador")
 var contador = 0
@@ -556,4 +554,3 @@ var pre = 0
 
 /***************/
 
->>>>>>> 42076c3fb0ca913f8ecc5d9a60389be88164836c
