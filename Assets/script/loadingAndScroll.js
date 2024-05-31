@@ -225,6 +225,82 @@ revelar.reveal('.testemunha4', {
 })
 
 
+/*efeito scroll reveal do diz algo*/
+
+/*****#star1,#star2,#star3,#star4,#star5,.btnSubmit ****** */
+
+revelar.reveal('.line', {
+    duration: 300,
+    distance: '90px',
+    delay:100
+})
+
+revelar.reveal('.nome', {
+    duration: 300,
+    distance: '90px',
+    delay:150
+})
+
+revelar.reveal('.email', {
+    duration: 300,
+    distance: '90px',
+    delay:200
+})
+
+revelar.reveal('.msg', {
+    duration: 300,
+    distance: '90px',
+    delay:250
+})
+
+
+revelar.reveal('.mar', {
+    duration: 300,
+    distance: '90px',
+    delay:300
+})
+
+revelar.reveal('#star1', {
+    duration: 300,
+    distance: '90px',
+    delay:350,
+    origin: 'right'
+})
+
+revelar.reveal('#star2', {
+    duration: 300,
+    distance: '90px',
+    delay:400,
+    origin: 'right'
+})
+
+revelar.reveal('#star3', {
+    duration: 300,
+    distance: '90px',
+    delay:450,
+    origin: 'right'
+})
+
+revelar.reveal('#star4', {
+    duration: 300,
+    distance: '90px',
+    delay:500,
+    origin: 'right'
+})
+
+revelar.reveal('#star5', {
+    duration: 300,
+    distance: '90px',
+    delay:550,
+    origin: 'right'
+})
+
+
+revelar.reveal('.btnSubmit', {
+    duration: 300,
+    distance: '90px',
+    delay:600,
+})
 
 
 /*efeito do dashboard */

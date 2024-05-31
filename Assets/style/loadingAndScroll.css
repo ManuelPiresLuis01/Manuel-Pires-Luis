@@ -33,9 +33,11 @@
 .testemunha4,
 .bi-file-word,
 .bi-file-earmark-excel-fill,
-.bi-file-ppt-fill {
+.bi-file-ppt-fill,
+.line,.nome,.email,.msg,.mar,.btnSubmit,#star1,#star2,#star3,#star4,#star5 {
    visibility: hidden;
 }
+
 
 .bi-file-word,
 .bi-file-earmark-excel-fill,
