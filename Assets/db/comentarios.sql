@@ -14,3 +14,5 @@ insert into pessoas values
 
 desc pessoas;
 select * from pessoas;
+
+

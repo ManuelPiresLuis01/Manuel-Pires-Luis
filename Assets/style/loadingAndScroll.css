@@ -1,4 +1,5 @@
 /*esconder elementos*/
+/*
 .img,
 .r1,
 .r2,
@@ -7,8 +8,6 @@
 .r5,
 .btn,
 #presentation,
-#presentation1,
-#presentation2,
 .about-me,
 .bxl-html5,
 .bxl-css3,
@@ -31,22 +30,11 @@
 .testemunha2,
 .testemunha3,
 .testemunha4,
-.bi-file-word,
-.bi-file-earmark-excel-fill,
-.bi-file-ppt-fill,
 .line,.nome,.email,.msg,.mar,.btnSubmit,#star1,#star2,#star3,#star4,#star5 {
    visibility: hidden;
 }
 
-
-.bi-file-word,
-.bi-file-earmark-excel-fill,
-.bi-file-ppt-fill {
-  display: block;
-}
-
-
-
+*/
 
 /*****************************************/
 

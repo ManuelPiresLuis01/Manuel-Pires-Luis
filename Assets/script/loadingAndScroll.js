@@ -1,4 +1,4 @@
-/* script do loading */
+
 let cont = document.querySelector(".contador")
 var contador = 0
 
@@ -11,12 +11,8 @@ parar = setInterval(function () {
         first()
     }
 
-}, 40)
-/*****************/
-
-/**resetar*/
+},40)
 window.revelar = ScrollReveal({ reset: true })
-/*efeito scroll reveal do topo*/
 function first() {
     revelar.reveal('.img', {
         duration: 500,
@@ -27,19 +23,6 @@ function first() {
         duration: 500,
         distance: '90px',
         delay: 200
-    })
-
-    revelar.reveal('#presentation1', {
-        duration: 1000,
-        distance: '90px',
-        delay: 300
-    })
-
-    revelar.reveal('#presentation2', {
-        duration: 1500,
-        distance: '90px',
-        delay: 400
-
     })
 
     revelar.reveal('.r1', {
@@ -191,7 +174,7 @@ revelar.reveal('.projp1', {
 })
 
 /*efeito scroll reveal do dashboard */
-revelar.reveal('.cont1', {
+/*revelar.reveal('.cont1', {
     duration: 300,
     distance: '90px',
     delay: 100
@@ -200,9 +183,9 @@ revelar.reveal('.cont2', {
     duration: 300,
     distance: '90px',
     delay: 200
-})
+})*/
 
-/**efeito scroll reveal dass testemunhas */
+/**efeito scroll reveal das testemunhas */
 revelar.reveal('.testemunha1', {
     duration: 300,
     distance: '90px',
@@ -295,12 +278,8 @@ revelar.reveal('#star5', {
     origin: 'right'
 })
 
-
 revelar.reveal('.btnSubmit', {
     duration: 300,
     distance: '90px',
     delay:600,
 })
-
-
-

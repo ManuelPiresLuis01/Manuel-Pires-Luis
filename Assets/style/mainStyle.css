@@ -5,6 +5,7 @@
 
 * {
     margin: 0;
+    outline-color: white;
     padding: 0;
     text-decoration: none;
     list-style-type: none;
@@ -13,17 +14,14 @@
 
 body {
     max-width: 100%;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;  
+    background-color:black;
 }
 
 a {
     display: block;
     text-decoration: none;
     color: white;
-}
-
-body {
-    background-color: black;
 }
 
 .mobile,
@@ -433,6 +431,9 @@ section.second {
     text-align: center;
 }
 
+.seventh h3{
+    font-weight: bold;
+}
 .testemunha {
     padding: 10px;
     border: 1px solid white;
@@ -667,6 +668,4 @@ footer {
     .six {
         flex-direction: column;
     }
-
-
 }
