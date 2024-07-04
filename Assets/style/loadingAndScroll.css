@@ -1,5 +1,4 @@
 /*esconder elementos*/
-/*
 .img,
 .r1,
 .r2,
@@ -7,6 +6,7 @@
 .r4,
 .r5,
 .btn,
+#presentation1,
 #presentation,
 .about-me,
 .bxl-html5,
@@ -30,11 +30,19 @@
 .testemunha2,
 .testemunha3,
 .testemunha4,
-.line,.nome,.email,.msg,.mar,.btnSubmit,#star1,#star2,#star3,#star4,#star5 {
+.line,
+.nome,
+.email,
+.msg,
+.mar,
+.btnSubmit,
+#star1,
+#star2,
+#star3,
+#star4,
+#star5 {
    visibility: hidden;
 }
-
-*/
 
 /*****************************************/
 

@@ -19,10 +19,17 @@ function first() {
         distance: '90px'
     })
 
-    revelar.reveal('#presentation', {
+    
+    revelar.reveal('#presentation1', {
         duration: 500,
         distance: '90px',
         delay: 200
+    })
+
+    revelar.reveal('#presentation', {
+        duration: 500,
+        distance: '90px',
+        delay: 250
     })
 
     revelar.reveal('.r1', {
