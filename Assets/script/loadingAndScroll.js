@@ -1,4 +1,3 @@
-
 let cont = document.querySelector(".contador")
 var contador = 0
 

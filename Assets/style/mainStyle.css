@@ -129,58 +129,7 @@ section.first {
 
 #presentation::before {
     content: "";
-    animation: palavras 20s infinite;
-}
-
-#presentation::after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    border-left: 3px solid white;
-    color: white;
-    right: 0;
-    background-color: black;
-    animation: cursor .7s infinite, escrever 20s steps(15) infinite;
-
-}
-
-@keyframes escrever {
-    10%,
-    15%,
-    30%,
-    35%,
-    50%,
-    55%,
-    70%,
-    75%,
-    90%,
-    95% {
-        width: 0;
-    }
-
-    5%,
-    20%,
-    25%,
-    40%,
-    45%,
-    60%,
-    65%,
-    80%,
-    85% {
-        width: 100%;
-    }
-
-}
-
-
-@keyframes cursor {
-    0% {
-        border-left: 3px solid black;
-    }
-
-    100% {
-        border-left: 3px solid white;
-    }
+    animation: palavras 7s infinite;
 }
 
 @keyframes palavras {
