@@ -46,6 +46,7 @@
                     <li><a href="#oqueFaco">Oque Faço</a></li>
                     <li><a href="#projectos">Projectos</a></li>
                     <li><a href="#premios">Premios</a></li>
+                    <li><a href="#dizer1">Oque Dizem</a></li>
                     <li><a href="https://wa.me/message/SNIM7FYHGCJHA1" target="_blank">Ligar Agora</a></li>
                 </ul>
             </nav>
@@ -58,6 +59,7 @@
                     <li><a href="#oqueFaco">Oque Faço</a></li>
                     <li><a href="#projectos">Projectos</a></li>
                     <li><a href="#premios">Premios</a></li>
+                    <li><a href="#dizer1">Oque Dizem</a></li>
                     <li><a href="https://wa.me/message/SNIM7FYHGCJHA1" target="_blank"><i style="font-size: 35px;"
                                 class='bx bxs-phone-call bx-tada'></i></a></li>
                 </ul>
@@ -110,14 +112,20 @@
             </p>
         </div>
 
-        <div class="skills">
-            <div><abbr title="HTML:5"><i class='bx bxl-html5'></i></abbr></div>
-            <div><abbr title="css:3"><i class='bx bxl-css3'></i></abbr></div>
-            <div><abbr title="java script"><i class='bx bxl-javascript'></i></abbr></div>
-            <div><abbr title="java"><i class='bx bxl-java'></i></abbr></div>
-            <div><abbr title="bootstrap"><i class='bx bxl-bootstrap'></i></abbr></div>
-            <div><abbr title="React"><i class='bx bxl-react'></i></abbr></div>
-            <div><abbr title="VS code"><i class='bx bxl-visual-studio'></i></abbr></div>
+        <div class="showing">
+            <div class="photo">
+                <img src="./Assets/img/pirex.png" alt="Manuel Pires Luis">
+            </div>
+            <div class="skills">
+                <div><abbr title="HTML:5"><i class='bx bxl-html5'></i></abbr></div>
+                <div><abbr title="css:3"><i class='bx bxl-css3'></i></abbr></div>
+                <div><abbr title="java script"><i class='bx bxl-javascript'></i></abbr></div>
+                <div><abbr title="java"><i class='bx bxl-java'></i></abbr></div>
+                <div><abbr title="PHP"><i class='bx bxl-php'></i></abbr></div>
+                <div><abbr title="bootstrap"><i class='bx bxl-bootstrap'></i></abbr></div>
+                <div><abbr title="React"><i class='bx bxl-react'></i></abbr></div>
+                <div><abbr title="VS code"><i class='bx bxl-visual-studio'></i></abbr></div>
+            </div>
         </div>
 
     </section>
@@ -234,25 +242,8 @@
     </section>
     <!---->
 
-    <!--sexta seccao-->
-    <!--<section class="six">
-        <div class="cont cont1">
-            <div>
-                <span id="terminado">3</span>
-                <p>Projectos Terminados</p>
-            </div>
-        </div>
-        <div class="cont cont2">
-            <div>
-                <span id="premio">1</span>
-                <p>Projectos Premiados</p>
-            </div>
-        </div>
-    </section>-->
-    <!---->
-
     <!--Setima seccao-->
-    <section class="seventh">
+    <section id="#dizer1" class="seventh">
         <h2 class="titulo">O que as Pessoas Dizem</h2>
         <div class="atividades">
 
@@ -334,32 +325,48 @@
     </section>
     <!---->
 
-    <!--oitava seccao---
+    <!--oitava seccao-->
 
     <section class="eight">
         <h2 class="titulo">Diz algo</h2>
         <div>
-            <div class="line">
-                <input class="nome" type="text" placeholder="Digite o seu nome..." required>
-                <input class="email" type="email" placeholder="Digite o seu email...">
-                <input class="msg" class="msg" type="text" placeholder="Escreva a sua mensagem..." required>
-                <label class="mar" for="star">Marque quantas <i class='bx bxs-star'></i> me sorteas!</label>
-                <div class="star">
-                    <input type="checkbox" name="star" id="star1">
-                    <input type="checkbox" name="star" id="star2">
-                    <input type="checkbox" name="star" id="star3">
-                    <input type="checkbox" name="star" id="star4">
-                    <input type="checkbox" name="star" id="star5">
-                </div>
-                <button class="btnSubmit" type="submit">Submeter</button>
+            <form class="line">
+                <input id="nome" class="nome" type="text" placeholder="Digite o seu nome..." required> </br>
+                <input id="email" class="email" type="email" placeholder="Digite o seu email..."></br>
+                <input id="msg" class="msg" class="msg" type="text" placeholder="Escreva a sua mensagem..."
+                    required></br>
+                <label class="mar" for="star">Marque quantas <i class='bx bxs-star'></i> me sorteas!</label></br>
+                <select name="star" id="select" required>
+                    <option value="11"></option>
+                    <option value="1">*</option>
+                    <option value="2">* *</option>
+                    <option value="3">* * *</option>
+                    <option value="4">* * * *</option>
+                    <option value="5">* * * * *</option>
+                </select></br>
+                <button onclick="enviado()" id="btnSubmit" class="btnSubmit" type="submit">Submeter</button>
+            </form>
+        </div>
+
+        <div id="infor" class="black">
+            <div class="enviado">
+                <i id="btnfechar" class='bx bx-x'></i>
+                <i class='bx bx-check'></i>
+                <p>Comentario enviado!</br>
+                    Após uma analise seu comentario será postado!</p>
+                <button class="btn-contactar">
+                    <a id="email1" href="#EnviarEmail">Enviar um E-mail!</a>
+                </button>
             </div>
         </div>
-    </section>
-    -->
-    <!---->
 
+    </section>
+
+    <!---->
+    </section>
     <!--rodape-->
     <footer>
+        <div id="EnviarEmail"></div>
         <hr style="color: white;">
         <p style="text-align: center;">&copy; - <b id="ano">(ano atual)</b> <b>Manuel Pires Luís</b></p>
     </footer>

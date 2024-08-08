@@ -184,6 +184,14 @@ section.second {
     width: 500px;
 }
 
+.showing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 150px;
+    align-items: center;
+}
+
 .skills {
     display: flex;
     flex-wrap: wrap;
@@ -243,6 +251,10 @@ section.second {
 
 .bi-file-ppt-fill {
     color: #bd5959;
+}
+
+.bxl-php {
+    color: #1111ffd5;
 }
 
 /**********/
@@ -417,48 +429,10 @@ section.second {
 /********************/
 
 
-
-/**estilo da sexta seccao*/
-
-.six {
-    margin-top: 250px;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    font-weight: 500;
-}
-
-.cont {
-    width: 200px;
-    height: 200px;
-    border: 3px solid white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.cont span {
-    display: block;
-    font-size: 60px;
-}
-
-.cont p {
-    font-size: 15px;
-}
-
-/************/
-
 /*estilo setima seccao*/
 
 .seventh {
-    margin-top: 250px;
+    margin: 250px 0;
     color: white;
     text-align: center;
 }
@@ -508,11 +482,10 @@ section.second {
     border-radius: 30px;
     border: 1px solid white;
     padding: 20px;
-    flex-direction: column;
 }
 
-.star {
-    display: flex;
+select {
+    border-radius: 20px;
 }
 
 input {
@@ -559,8 +532,53 @@ label {
 
 /*************************/
 
+/*estilo do add comentario*/
+.black {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    background: #000000ad;
+    width: 0%;
+    overflow: hidden;
+}
 
-/*estilo do rodpe*/
+.black.abrir {
+    width: 100%;
+}
+
+.enviado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.enviado .bx-check {
+    color: green;
+    font-size: 130px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.enviado .bx-x {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/*******************/
+
+/*estilo do rodape*/
 
 
 footer {
@@ -672,8 +690,6 @@ footer {
         color: white;
     }
 
-
-
     .btn {
         margin-top: 50px;
         display: flex;
@@ -687,18 +703,20 @@ footer {
         border-radius: 50%;
     }
 
-
     section.second {
         padding: 100px 50px;
 
     }
 
-
     .about-me {
         width: auto;
     }
 
-    .six {
+    .showing {
         flex-direction: column;
+    }
+
+    .showing img {
+        width: 300px;
     }
 }

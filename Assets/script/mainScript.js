@@ -17,6 +17,42 @@ menu.addEventListener("click", function () {
 
 overflow.addEventListener("click", function () {
     menu.classList.remove("abrir")
-    overflow.classList.remove("abrir") 
+    overflow.classList.remove("abrir")
+})
+
+
+
+let infor = document.getElementById("infor")
+function enviado() {
+    let nome = document.getElementById("nome")
+    let email = document.getElementById("email")
+    let msg = document.getElementById("msg")
+    let select = document.getElementById("select")
+    if (nome.value != "" && email.value != "" && msg.value != "" ) {
+        for (var i = 0; i < email.value.length; i++) {
+            if (email.value.charAt(i) =='@gmail.com' || email.value.charAt(i) =='@hotmail.com' || email.value.charAt(i) =='@') {
+                infor.classList.add("abrir")
+                nome = ""
+                email = ""
+                msg = ""
+            }
+        }
+    }
+
+}
+
+document.getElementById("btnfechar").addEventListener("click", function () {
+    infor.classList.remove("abrir")
+    nome.value = ""
+    email.value = ""
+    msg.value = ""
+})
+
+
+document.getElementById("email1").addEventListener("click", function () {
+    infor.classList.remove("abrir")
+    nome.value = ""
+    email.value = ""
+    msg.value = ""
 })
 
