@@ -129,30 +129,28 @@ section.first {
 
 #presentation::before {
     content: "";
-    animation: palavras 7s infinite;
+    animation: palavras 5s infinite;
 }
 
 @keyframes palavras {
 
     0%,
-    25% {
+    40% {
         content: "Desenvolvedor Web";
     }
 
-    26%,
-    50% {
+    41%,
+    66% {
         content: "Freelancer";
     }
 
-    51%,
-    75% {
+    67%,
+    100%{
         content: "Professor";
     }
 
-    76%,
-    100% {
-        content: "Artista";
-    }
+
+
 }
 
 
@@ -482,6 +480,7 @@ section.second {
     border-radius: 30px;
     border: 1px solid white;
     padding: 20px;
+    flex-direction: column;
 }
 
 select {
@@ -580,6 +579,17 @@ label {
 
 /*estilo do rodape*/
 
+#EnviarEmail {
+    margin: 250px 0;
+    text-align: center;
+    color: white;
+}
+
+#EnviarEmail div {
+    text-align: center;
+    color: white;
+    margin: 0 300px;
+}
 
 footer {
     width: 100%;
@@ -719,4 +729,9 @@ footer {
     .showing img {
         width: 300px;
     }
+
+    #EnviarEmail div {
+        margin: 0 50px;
+    }
+
 }

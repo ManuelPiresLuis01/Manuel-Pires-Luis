@@ -330,12 +330,11 @@
     <section class="eight">
         <h2 class="titulo">Diz algo</h2>
         <div>
-            <form class="line">
-                <input id="nome" class="nome" type="text" placeholder="Digite o seu nome..." required> </br>
-                <input id="email" class="email" type="email" placeholder="Digite o seu email..."></br>
-                <input id="msg" class="msg" class="msg" type="text" placeholder="Escreva a sua mensagem..."
-                    required></br>
-                <label class="mar" for="star">Marque quantas <i class='bx bxs-star'></i> me sorteas!</label></br>
+            <div class="line">
+                <input id="nome" class="nome" type="text" placeholder="Digite o seu nome..." required>
+                <input id="email" class="email" type="email" placeholder="Digite o seu email...">
+                <input id="msg" class="msg" type="text" placeholder="Escreva a sua mensagem..." required>
+                <label class="mar" for="star">Marque quantas<i class='bx bxs-star'></i> me sorteas!</label>
                 <select name="star" id="select" required>
                     <option value="11"></option>
                     <option value="1">*</option>
@@ -343,9 +342,9 @@
                     <option value="3">* * *</option>
                     <option value="4">* * * *</option>
                     <option value="5">* * * * *</option>
-                </select></br>
+                </select>
                 <button onclick="enviado()" id="btnSubmit" class="btnSubmit" type="submit">Submeter</button>
-            </form>
+            </div>
         </div>
 
         <div id="infor" class="black">
@@ -365,8 +364,17 @@
     <!---->
     </section>
     <!--rodape-->
+    <div id="EnviarEmail">
+        <h2 class="titulo">Envia-me um E-mail!</h2>
+        <div>
+            <input type="email" placeholder="Digite o Seu Email..." required> </br>
+            <input type="text" class="msg" placeholder="Escreva a sua mensagem" required> </br>
+            <button  class="btn-contactar"> 
+                <a style="margin-top: 50px;" id="email1" href="#EnviarEmail">Enviar E-mail!</a>
+            </button>
+        </div>
+    </div>
     <footer>
-        <div id="EnviarEmail"></div>
         <hr style="color: white;">
         <p style="text-align: center;">&copy; - <b id="ano">(ano atual)</b> <b>Manuel Pires Luís</b></p>
     </footer>

@@ -48,7 +48,6 @@ document.getElementById("btnfechar").addEventListener("click", function () {
     msg.value = ""
 })
 
-
 document.getElementById("email1").addEventListener("click", function () {
     infor.classList.remove("abrir")
     nome.value = ""
