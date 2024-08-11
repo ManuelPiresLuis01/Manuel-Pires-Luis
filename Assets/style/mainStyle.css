@@ -580,9 +580,11 @@ label {
 /*estilo do rodape*/
 
 #EnviarEmail {
-    margin: 250px 0;
+    margin: 250px 0px;
     text-align: center;
     color: white;
+    border: 1px solid white;
+    flex-direction: column;
 }
 
 #EnviarEmail div {

@@ -10,7 +10,7 @@ parar = setInterval(function () {
         first()
     }
 
-},1)
+},10)
 window.revelar = ScrollReveal({ reset: true })
 function first() {
     revelar.reveal('.img', {
@@ -107,6 +107,13 @@ revelar.reveal('.bxl-bootstrap', {
     distance: '50px',
     delay: 500
 })
+
+revelar.reveal('.bxl-php', {
+    duration: 500,
+    distance: '50px',
+    delay: 550
+})
+
 revelar.reveal('.bxl-react', {
     duration: 500,
     distance: '50px',
