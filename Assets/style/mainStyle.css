@@ -1,6 +1,7 @@
 /*estilo geral do site*/
 ::-webkit-scrollbar {
     width: 0;
+    overflow: hidden;
 }
 
 * {
@@ -145,7 +146,7 @@ section.first {
     }
 
     67%,
-    100%{
+    100% {
         content: "Professor";
     }
 
@@ -459,141 +460,79 @@ section.second {
 
 /*******************/
 
-/*estilo da oitava seccao*/
 
-
-.eight {
-    margin: 250px 0;
+.sendEmail {
+    display: flex;
     text-align: center;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+
+.sendEmail input,
+.sendEmail textarea {
+    background: none;
+    border: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
     color: white;
 }
 
-.eight div {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.line {
-    border-radius: 30px;
+.container {
     border: 1px solid white;
-    padding: 20px;
-    flex-direction: column;
-}
-
-select {
+    width: 300px;
+    padding: 20px 10px;
     border-radius: 20px;
 }
 
-input {
-    padding: 10px 8px;
-    border-radius: 10px;
-    background-color: transparent;
+.container button,
+.sendEmail h2,
+.emailEnviado button {
     color: white;
-    border: none;
-    border: 1px solid white;
-    margin: 5px;
-    width: 90%;
-    font-size: 15px;
 }
 
-.msg {
-    padding-bottom: 40px;
-}
-
-label,
-.star,
-.btnSubmit {
-    margin: 5px 0;
-}
-
-label {
-    padding: 0;
-}
-
-.btnSubmit {
-    background: none;
-    border: none;
+.bxs-envelope {
     color: white;
-    border-bottom: 1px solid white;
-    border-radius: 10px;
-    padding: 5px 10px;
-    transition: 1s;
+    font-size: 50px;
 }
 
-.btnSubmit:hover {
-    cursor: pointer;
-    padding: 0 50px;
-    padding-bottom: 5px;
-}
-
-/*************************/
-
-/*estilo do add comentario*/
-.black {
+.emailEnviado {
     position: fixed;
     top: 0;
-    right: 0;
     left: 0;
-    height: 100vh;
-    background: #000000ad;
-    width: 0%;
-    overflow: hidden;
-}
-
-.black.abrir {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 99999;
+    display: none;
+    background-color: #00000093;
+
 }
 
-.enviado {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    flex-direction: column;
-    border: 1px solid white;
-    padding: 10px;
+.emailEnviado.abrir {
+    display: flex;
+}
+
+.emailEnviado div {
     background-color: black;
-    border-radius: 30px;
+    color: white;
+    width: 350px;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+
 }
 
-.enviado .bx-check {
+.bi-check-lg {
     color: green;
-    font-size: 130px;
-    font-weight: bold;
-    padding: 0;
-    margin: 0;
-}
-
-.enviado .bx-x {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-/*******************/
-
-/*estilo do rodape*/
-
-#EnviarEmail {
-    margin: 250px 0px;
-    text-align: center;
-    color: white;
-    border: 1px solid white;
-    flex-direction: column;
-}
-
-#EnviarEmail div {
-    text-align: center;
-    color: white;
-    margin: 0 300px;
+    font-size: 50px;
 }
 
 footer {
+    padding-top: 80px;
     width: 100%;
     text-align: center;
     color: white;
@@ -732,8 +671,5 @@ footer {
         width: 300px;
     }
 
-    #EnviarEmail div {
-        margin: 0 50px;
-    }
 
 }

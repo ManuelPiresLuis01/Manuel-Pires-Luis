@@ -4,19 +4,19 @@ var contador = 0
 parar = setInterval(function () {
     cont.innerHTML = contador
     contador++
-    if (contador == 101) {
+    if (contador == 10) {
         clearInterval(parar)
         document.querySelector(".loading").classList.add("fechar")
         first()
     }
 
-},10)
+},1)
 window.revelar = ScrollReveal({ reset: true })
-function first() {
+function first() {/*
     revelar.reveal('.img', {
         duration: 500,
         distance: '90px'
-    })
+    })*/
 
     
     revelar.reveal('#presentation1', {
@@ -192,18 +192,6 @@ revelar.reveal('.projp1', {
     delay: 100
 })
 
-/*efeito scroll reveal do dashboard */
-/*revelar.reveal('.cont1', {
-    duration: 300,
-    distance: '90px',
-    delay: 100
-})
-revelar.reveal('.cont2', {
-    duration: 300,
-    distance: '90px',
-    delay: 200
-})*/
-
 /**efeito scroll reveal das testemunhas */
 revelar.reveal('.testemunha1', {
     duration: 300,
@@ -227,78 +215,40 @@ revelar.reveal('.testemunha4', {
 })
 
 
-/*efeito scroll reveal do diz algo*/
-
-/*****#star1,#star2,#star3,#star4,#star5,.btnSubmit ****** */
-
-revelar.reveal('.line', {
+revelar.reveal('.container', {
     duration: 300,
     distance: '90px',
-    delay:100
+    delay: 500
+})
+
+   
+
+revelar.reveal('.bxs-envelope', {
+    duration: 300,
+    distance: '90px',
+    delay: 550
 })
 
 revelar.reveal('.nome', {
     duration: 300,
     distance: '90px',
-    delay:150
+    delay: 600
 })
 
 revelar.reveal('.email', {
     duration: 300,
     distance: '90px',
-    delay:200
+    delay: 650
 })
 
 revelar.reveal('.msg', {
     duration: 300,
     distance: '90px',
-    delay:250
+    delay: 700
 })
 
-
-revelar.reveal('.mar', {
+revelar.reveal('.enviar', {
     duration: 300,
     distance: '90px',
-    delay:300
-})
-
-revelar.reveal('#star1', {
-    duration: 300,
-    distance: '90px',
-    delay:350,
-    origin: 'right'
-})
-
-revelar.reveal('#star2', {
-    duration: 300,
-    distance: '90px',
-    delay:400,
-    origin: 'right'
-})
-
-revelar.reveal('#star3', {
-    duration: 300,
-    distance: '90px',
-    delay:450,
-    origin: 'right'
-})
-
-revelar.reveal('#star4', {
-    duration: 300,
-    distance: '90px',
-    delay:500,
-    origin: 'right'
-})
-
-revelar.reveal('#star5', {
-    duration: 300,
-    distance: '90px',
-    delay:550,
-    origin: 'right'
-})
-
-revelar.reveal('.btnSubmit', {
-    duration: 300,
-    distance: '90px',
-    delay:600,
+    delay: 750
 })
