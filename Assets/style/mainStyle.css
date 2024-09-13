@@ -14,8 +14,7 @@
 }
 
 body {
-    max-width: 100%;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: black;
 }
 
@@ -72,13 +71,11 @@ section.first {
 }
 
 .redes-sociais ul {
-    margin-left: -30px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-
 }
 
 .redes-sociais i {
@@ -94,7 +91,6 @@ section.first {
 .main {
     margin-top: 100px;
     flex-wrap: wrap;
-    margin: auto;
 }
 
 .main img {
@@ -382,6 +378,25 @@ section.second {
     transition: 1s;
 }
 
+.Naruto{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 150px;
+    background: url(../img/Naruto.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: #00000081;
+    transition: 1s;
+}
+
+.Naruto:hover{
+    cursor: pointer;
+    background-color: #00000000;
+    background-size: cover;
+}
+
 
 .biblioteca:hover {
     cursor: pointer;
@@ -444,6 +459,7 @@ section.second {
     padding: 10px;
     border: 1px solid white;
     border-radius: 20px;
+    height: 370px;
     width: 250px;
 
 }
@@ -466,6 +482,10 @@ section.second {
     text-align: center;
     justify-content: center;
     margin-bottom: 250px;
+}
+
+input,textarea:hover{
+    outline-color: white;
 }
 
 .sendEmail input,
@@ -509,7 +529,6 @@ section.second {
     z-index: 99999;
     display: none;
     background-color: #00000093;
-
 }
 
 .emailEnviado.abrir {
@@ -560,7 +579,6 @@ footer {
 
 /*responsividade*/
 @media screen and (max-width:800px) {
-
 
     .main img {
         width: 200px;
@@ -655,7 +673,7 @@ footer {
     }
 
     section.second {
-        padding: 100px 50px;
+        padding: 100px 0;
 
     }
 
