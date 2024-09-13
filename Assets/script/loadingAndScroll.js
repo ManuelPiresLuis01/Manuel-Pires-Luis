@@ -4,13 +4,13 @@ var contador = 0
 parar = setInterval(function () {
     cont.innerHTML = contador
     contador++
-    if (contador == 10) {
+    if (contador == 100) {
         clearInterval(parar)
         document.querySelector(".loading").classList.add("fechar")
         first()
     }
 
-},1)
+},50)
 window.revelar = ScrollReveal({ reset: true })
 function first() {/*
     revelar.reveal('.img', {
