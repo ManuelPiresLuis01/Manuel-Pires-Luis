@@ -1,5 +1,3 @@
-I can help you create a README for your portfolio website. Since I can't directly access the code, I'll provide a general template based on your description. You can fill in the specific details about your code.
-
 ```
 # Portfolio Website
 
