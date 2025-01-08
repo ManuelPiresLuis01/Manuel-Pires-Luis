@@ -51,9 +51,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 For any inquiries or feedback, feel free to contact me at:
-- **Email**: your-email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- **Email**: manuelpiresluis@gmail.com
+- **LinkedIn**: [Manuel Pires Luis](www.linkedin.com/in/manuel-pires-l-5275852aa)
 
 ```
 
-Please replace placeholders like "your-email@example.com" and "Your LinkedIn Profile" with your actual contact information. Additionally, you can add more specific details about the code and features if needed.
